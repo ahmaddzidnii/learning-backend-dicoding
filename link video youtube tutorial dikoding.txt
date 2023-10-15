@@ -1,0 +1,7 @@
+Learning Path Backend
+
+A. Belajar Membuat Aplikasi Back-End untuk Pemula
+1. Video Deploy Web Services Amazon : https://youtu.be/0XmiOq3iQcQ
+2. Video Web Service menggunakan Node.js : https://youtu.be/K5Un8IZJzWk
+3. Video Dasar-Dasar Node.js : https://youtu.be/_qN02jvqvLo
+
