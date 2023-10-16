@@ -20,7 +20,7 @@ const addBookHandler = (request, h) => {
       .code(400);
   }
 
-  const id = nanoid(20);
+  const id = nanoid(50);
   const insertedAt = new Date().toISOString();
   const updatedAt = insertedAt;
   const finished = pageCount === readPage ? true : false;
@@ -52,7 +52,7 @@ const addBookHandler = (request, h) => {
 };
 
 const getAllBooksHandler = (request, h) => {
-  const { name, reading } = request.query;
+  const { name, reading, finished } = request.query;
   let filteredBooks = books;
 
   if (name) {
@@ -60,14 +60,14 @@ const getAllBooksHandler = (request, h) => {
     filteredBooks = books.filter((book) => book.name.toLowerCase().includes(lowerCaseName));
   }
 
-  if (reading === "1") {
-    const isReading = reading;
-    filteredBooks = books.filter((book) => book.reading === isReading);
+  if (reading === "0" || reading === "1") {
+    const isReading = reading === "1";
+    filteredBooks = filteredBooks.filter((book) => book.reading === isReading);
   }
 
-  if (reading === "0") {
-    const isReading = reading;
-    filteredBooks = books.filter((book) => book.reading === isReading);
+  if (finished === "0" || finished === "1") {
+    const isFinished = finished === "1";
+    filteredBooks = filteredBooks.filter((book) => book.finished === isFinished);
   }
 
   const formattedBooks = filteredBooks.map((book) => ({

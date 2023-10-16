@@ -4,15 +4,12 @@
   "description": "tugas dicoding",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "node src/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^21.3.2",
     "nanoid": "^3.1.25"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
