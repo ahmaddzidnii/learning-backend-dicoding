@@ -5,3 +5,24 @@ A. Belajar Membuat Aplikasi Back-End untuk Pemula
 2. Video Web Service menggunakan Node.js : https://youtu.be/K5Un8IZJzWk
 3. Video Dasar-Dasar Node.js : https://youtu.be/_qN02jvqvLo
 
+B. Belajar Dasar Pemrograman JavaScript
+1. Video Fundamental JavaScript : https://youtu.be/t3xYf5KpIfs
+2. Video Struktur Data di JavaScript : https://youtu.be/etDR8rc_vvs
+3. Video Function di JavaScript : https://youtu.be/AL9ipPNzSOE
+4. Video Object Oriented Programming : https://youtu.be/Z5I46E3-QMU
+5. Video Functional Programming : https://youtu.be/5z4RjiACs4Y
+6. Video Bekerja Secara Modular di JavaScript : https://youtu.be/gczp2b4oJsU
+7. Video Penanganan Error : https://youtu.be/nDaGcMT44jo
+8. Video Asynchronous Process : https://youtu.be/kGu_caRJ-hw
+9. Video Node Package Manager : https://youtu.be/yFRCL6P1C8U 
+10. Video JavaScript Testing : https://youtu.be/nbVFAlB8Ec8
+
+C. Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)
+1. Video Pengantar AWS : https://youtu.be/Za4zQnFKHiA
+2. Video Komputasi di Cloud : https://youtu.be/ds23QIICgyk
+3. Video Jaringan : https://youtu.be/340DcnRIWyE
+4. Video Penyimpanan dan Database : https://youtu.be/iTK_B3EI7-I
+5. Video Keamanan : https://youtu.be/J1eG_K-jloM
+6. Video Pemantauan dan Analitik di AWS : https://youtu.be/QxSr0bsKgow
+7. 
+
